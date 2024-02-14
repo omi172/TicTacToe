@@ -1,0 +1,47 @@
+/* SpinningCross.css */
+
+.cross {
+  width: 20px;
+  height: 20px;
+  /* background-color: blue; */
+  position: relative;
+  cursor: pointer;
+}
+
+.horizontal-line,
+.vertical-line {
+  position: absolute;
+  width: 10%;
+  background-color: white;
+}
+
+.horizontal-line {
+  width: 150%;
+  height: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.vertical-line {
+  width: 150%;
+  height: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cross.clicked .horizontal-line {
+  animation: spin 1s ease forwards;
+}
+
+.cross.clicked .vertical-line {
+  animation: spin 1s ease forwards;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}

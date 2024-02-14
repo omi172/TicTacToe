@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.imgSelected1 {
+  height: 100px;
+  width: 100px;
+}
+.Core {
+  background-color: cornflowerblue;
+  height: 350px;
+  width: 200px;
+  padding: 1rem;
+}
+.concepts {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flipped-horizontal {
+  height: 40vmin;
+  pointer-events: none;
+  transform: scaleX(-1);
+}
+
+.Header {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+}
+.RightHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.contactInput {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+/* styles.css */
+
+/* Form container */
+.contactInput {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Form inputs */
+.contactInput input[type="text"],
+.contactInput input[type="email"],
+.contactInput textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/* Submit button */
+.contactInput button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Submit button hover effect */
+.contactInput button:hover {
+  background-color: #45a049;
+}
+
+/* Form container title */
+.contactInput h2 {
+  text-align: center;
+}
+
+/* Optional: Form validation error message */
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+// projects
+/* projects.css */
+
+/* Projects section container */
+#projects {
+  padding: 50px 0;
+}
+
+/* Project item */
+.project {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+/* Project title */
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Project description */
+.project p {
+  font-size: 16px;
+}
+
+/* Optional: Add hover effect */
+.project:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Hex */
+.Hex{
+  position: absolute;
+left: 96.09%;
+right: 2.89%;
+top: 94.18%;
+bottom: 3.64%;
+
+background: #FFFFFF;
+}
+
+/* Footer */
+
+.footer{position: absolute;
+height: 38px;
+left: 0%;
+right: 0%;
+bottom: 0px;}
+
+
+
+/* Bg */
+.Bg{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+}
+
+
+/* Description */
+.description{
+position: absolute;
+width: 168px;
+height: 16px;
+left: 67px;
+top: calc(50% - 16px/2);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 16px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+
+color: #5A5A89;
+
+}
+
+/* Tips and details / Overline  */
+
+
+
+/* 2022 */
+.year{
+position: absolute;
+width: 28px;
+height: 16px;
+right: 67px;
+top: calc(50% - 16px/2);
+
+}
+
+/* Tips and details / Overline  */
+
+
+/* Chart */
+.LeftChart1{
+width: 88px;
+height: 88px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+height: 37.41px;
+left: 14.77%;
+right: 14.38%;
+top: calc(50% - 37.41px/2 + 0.7px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.112222px;
+
+color: #171725;
+}
+
+
+
+
+/* Percent */
+
+
+
+
+
+/* Background */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 88px;
+height: 88px;
+left: 0px;
+top: 0px;
+
+/* Lavender */
+border: 4px solid #DBDFF1;
+
+
+/* Progress */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 88px;
+height: 88px;
+left: 0px;
+top: 0px;
+
+/* Blue */
+border: 4px solid #023AFF;
